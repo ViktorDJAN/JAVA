@@ -1,4 +1,4 @@
-package org.example.hw_1;
+package org.example.homework.hw_1;
 
 import java.util.Scanner;
 //2) Дана последовательность целых чисел, оканчивающаяся нулем. Найти сумму положительных чисел, после которых следует отрицательное число.
