@@ -1,4 +1,4 @@
-package org.example.cw.cw3;
+package org.example.seminar.seminar_1.cw3;
 
 
 import java.sql.SQLOutput;
