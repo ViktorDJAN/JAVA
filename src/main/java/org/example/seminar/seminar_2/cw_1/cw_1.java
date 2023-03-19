@@ -12,7 +12,7 @@ public class cw_1 {
         int counter = 0;
         int n = sc.nextInt();
         int num = sc.nextInt();
-        for(int i = 0;i<n;i++){
+        for(int i = 0;i<n-1;i++){
             int nextnum = sc.nextInt();
             if(num%10==5 && nextnum%2 ==0) counter+=num;
             num = nextnum;

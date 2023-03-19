@@ -1,7 +1,7 @@
 package org.example.seminar.seminar_1.cw3;
 
 
-import java.sql.SQLOutput;
+
 import java.util.Scanner;
 import java.util.Arrays;
 
