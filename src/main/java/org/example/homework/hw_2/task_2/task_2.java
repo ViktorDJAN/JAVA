@@ -18,8 +18,6 @@ public class task_2 {
                 if (arr[i] % j == 0) k += 1;
             }
             if (k == 2) sum+=arr[i];
-
-
         }
         return sum;
     }
