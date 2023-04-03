@@ -62,7 +62,7 @@ public class task_1 {
     }
 
     private static ArrayList arr(Notebook[] ar, String name,int ozu,int hd) {
-        ArrayList<Notebook> notebookArr = new ArrayList<>();
+        ArrayList<Notebook> notebookArr = new  ArrayList<>();
         for (Notebook ar1 : ar) {
             if ((ar1.getName().equals(name)) && (ar1.getOzu()>=(ozu)) && ar1.getHdValue()>=(hd)){
                 notebookArr.add(ar1);
