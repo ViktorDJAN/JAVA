@@ -5,6 +5,7 @@ public class Animal {
         System.out.println("I'm eating because i'm a dog");
     }
     public void sleep(){
+
         System.out.println("I'm sleeping");
     }
 }
