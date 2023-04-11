@@ -1,7 +1,10 @@
-package org.example.OOP.homework.homework_2;
+package org.example.OOP.homework.homework_3;
+
+import org.example.OOP.homework.homework_2.Phones;
+import org.example.OOP.homework.homework_2.TechnoShop;
+import org.example.OOP.homework.homework_2.VitrinaIterator;
 
 import java.util.ArrayList;
-import java.util.Iterator;
 
 public class MainCl {
     public static void main(String[] args) {
@@ -18,7 +21,6 @@ public class MainCl {
         while (vitrinaIterator.hasNext()){
             System.out.println(vitrinaIterator.next().toString());
         }
-
 
 
     }
