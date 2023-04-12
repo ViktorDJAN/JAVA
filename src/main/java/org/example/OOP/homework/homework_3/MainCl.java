@@ -21,7 +21,5 @@ public class MainCl {
         while (vitrinaIterator.hasNext()){
             System.out.println(vitrinaIterator.next().toString());
         }
-
-
     }
 }

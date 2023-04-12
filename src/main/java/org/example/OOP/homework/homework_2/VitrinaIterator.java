@@ -12,7 +12,6 @@ public class VitrinaIterator implements Iterator<Phones> {
         this.phones = phones;
     }
 
-
     @Override
     public boolean hasNext() {
         if (counter < phones.size()) {
