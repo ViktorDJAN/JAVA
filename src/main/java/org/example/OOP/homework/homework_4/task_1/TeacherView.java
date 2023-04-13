@@ -6,7 +6,7 @@ import java.util.List;
 public class TeacherView {
     public ArrayList<Teacher>list;
     public TeacherView(){
-        list = new ArrayList<>();
+        list =  new ArrayList<>();
 
     }
     public ArrayList getAllNames(ArrayList arr){
