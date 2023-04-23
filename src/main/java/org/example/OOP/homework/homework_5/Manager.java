@@ -38,6 +38,7 @@ public class Manager implements Model {
         for (int i = 0; i < ar1.size(); i++) {
             if ((customers.get(i).customerID.equals(custId))) {
                 customers.get(i).balance -= minusMoney;
+
             }
         }
     }

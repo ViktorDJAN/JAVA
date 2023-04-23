@@ -13,11 +13,11 @@ public class Main {
         total.add(teacher2);
         total.add(teacher3);
         total.add(teacher4);
+        TeachersArray teachersArray = new TeachersArray();
+        PrintResult printResult = new PrintResult();
+        teachersArray.addNewTeacherToArr(teacher1);
+        printResult.resultPrint(total); // добавил класс PrintResult для вывода.
 
-
-        for(int i = 0;i<total.size();i++) {
-            System.out.println(total.get(i));
-        }
 
     }
 }

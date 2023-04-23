@@ -15,12 +15,12 @@ public class Teacher {
 
     @Override
     public String toString() {
-        return "Teacher{" +
-                "firsName='" + firsName + '\'' +
+        return
+                "firsName ='" + firsName + '\'' +
                 ", lastName='" + lastName + '\'' +
                 ", age=" + age +
-                ", techSubject='" + techSubject + '\'' +
-                '}';
+                ", techSubject='" + techSubject + '\''
+                ;
     }
 
     public String getFirsName() {
